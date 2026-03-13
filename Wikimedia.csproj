@@ -151,6 +151,19 @@
     <Content Include="Content\popup.css" />
     <Content Include="Content\Selections.css" />
     <Content Include="Content\site.css" />
+    <Content Include="Content\ui-images\Abort.png" />
+    <Content Include="Content\ui-images\Accept.png" />
+    <Content Include="Content\ui-images\admin.png" />
+    <Content Include="Content\ui-images\Loading_icon.gif" />
+    <Content Include="Content\ui-images\Masked.png" />
+    <Content Include="Content\ui-images\na.png" />
+    <Content Include="Content\ui-images\OffLine.png" />
+    <Content Include="Content\ui-images\OnLine.png" />
+    <Content Include="Content\ui-images\PhotoCloudLogo.png" />
+    <Content Include="Content\ui-images\power_user.png" />
+    <Content Include="Content\ui-images\shared.png" />
+    <Content Include="Content\ui-images\timeout.png" />
+    <Content Include="Content\ui-images\user.png" />
     <Content Include="Content\_layout.css" />
     <Content Include="Scripts\selections.js" />
     <Content Include="Scripts\session.js" />
@@ -210,6 +223,7 @@
     <Content Include="Views\Accounts\RenewPassword.cshtml" />
     <Content Include="Views\Accounts\RenewPasswordCommand.cshtml" />
     <Content Include="Views\Accounts\Subscribe.cshtml" />
+    <Content Include="Views\Medias\GetDetails.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

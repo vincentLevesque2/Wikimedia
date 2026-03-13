@@ -42,6 +42,32 @@ public class MediasController : Controller
         }
     }
 
+
+    public ActionResult GetDetails(bool forceRefresh = false)
+    {
+        try
+        {
+            if (DB.Medias.HasChanged || forceRefresh)
+            {
+                InitSessionVariables();
+                int id = (int)Session["CurrentMediaId"];
+                Media Media = DB.Medias.Get(id);
+                if (Media != null)
+                {
+                  
+                    return PartialView(Media);
+                }
+               
+            }
+            return null;
+
+        }
+        catch (System.Exception ex)
+        {
+            return Content("Erreur interne" + ex.Message, "text/html");
+        }
+    }
+
     public ActionResult GetMediasCategoriesList(bool forceRefresh = false)
     {
         try
