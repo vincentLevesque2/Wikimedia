@@ -1,32 +1,26 @@
 ﻿@model Models.Media
 @{ ViewBag.PageTitle = "Détails"; }
 
-<div class="detailsPanel">
-    <dl>
-        <dd>
-            @Model.Title
-        </dd>
-        <dd>
-            @Helper.YoutubePlayer(Model.YoutubeId)
-        </dd>
-        <dd class="description">
-            @Model.Description
-        </dd>
-        <dt>
-            Catégorie
-        </dt>
+<div class="detailsPanel" id="detailsPanel">
 
-        <dd>
-            @Model.Category
-        </dd>
-
-        <dt>
-            Date de publication
-        </dt>
-
-        <dd>
-            @Helper.When(Model.PublishDate)
-        </dd>
-
-    </dl>
 </div>
+
+
+@section Scripts {
+    <script>
+        $(() => {
+            let detailsAutoRefrshPanel =
+                new AutoRefreshedPanel(
+                    "detailsPanel",
+                    "/Medias/GetDetails",
+                    5,
+                    detailsPostRefresh);
+        });
+
+
+            function detailsPostRefresh() {
+                /// todo
+            }
+
+    </script>
+}
