@@ -1,0 +1,90 @@
+[
+  {
+    "Name": "Modérateur",
+    "Email": "admin@app.com",
+    "Password": "O2GYEtzXFrz+F+HNH/YxPihWIGTFLTvYad215JO7b5M=iI76Y3k2BYenrpKy+4zPuqUxVss=",
+    "Access": 3,
+    "Blocked": false,
+    "Verified": true,
+    "Notify": true,
+    "Avatar": "/App_Assets/Users/3b8cc315-9869-4eeb-acb0-9f539b33758a.jpeg",
+    "Id": 1
+  },
+  {
+    "Name": "Nicolas Chourot",
+    "Email": "nicolaschourot@videotron.ca",
+    "Password": "O2GYEtzXFrz+F+HNH/YxPihWIGTFLTvYad215JO7b5M=iI76Y3k2BYenrpKy+4zPuqUxVss=",
+    "Access": 1,
+    "Blocked": false,
+    "Verified": true,
+    "Notify": true,
+    "Avatar": "/App_Assets/Users/67e02a94-2b82-4d76-8396-9cac4db7308d.png",
+    "Id": 2
+  },
+  {
+    "Name": "Nicolas Chourot",
+    "Email": "Nicolas.Chourot@clg.qc.ca",
+    "Password": "tkYDT83Dv265QZd1NlYZWbGxTQ71P3KALg9mNvQ4J0w=5mCEaNq34jdcMIMyjtkQoIp3VEg=",
+    "Access": 2,
+    "Blocked": false,
+    "Verified": true,
+    "Notify": true,
+    "Avatar": "/App_Assets/Users/13070465-e361-4d69-9073-06ebeb3c64ad.jpeg",
+    "Id": 3
+  },
+  {
+    "Name": "Vincent Lévesque",
+    "Email": "levvin2@outlook.fr",
+    "Password": "FQ7y5JdLiAm3vR1TuoY/4cFggqkaAZ9Cyuc8ZoZ5wb0=EtssGFDlTNg5R/veqRVed6EpeA0=",
+    "Access": 1,
+    "Blocked": false,
+    "Verified": false,
+    "Notify": true,
+    "Avatar": "/App_Assets/Users/no_avatar.png",
+    "Id": 4
+  },
+  {
+    "Name": "Master",
+    "Email": "master@app.net",
+    "Password": "43142fuPQxe8JwBcgUpdTPxC5ksV9gNkd+sdSgUEPe0=8tLkSOL0CjuqsU1kNcIsuTDihco=",
+    "Access": 3,
+    "Blocked": false,
+    "Verified": true,
+    "Notify": true,
+    "Avatar": "/App_Assets/Users/no_avatar.png",
+    "Id": 5
+  },
+  {
+    "Name": "Charlot",
+    "Email": "charlot@yopmail.com",
+    "Password": "rUVuMdiWnLnwIrUfTPveX64Ns/Ws228DCIneUUv+C3Q=a35n9Y0Ntu1wockBPZJFeWWzpAY=",
+    "Access": 1,
+    "Blocked": false,
+    "Verified": true,
+    "Notify": true,
+    "Avatar": "/App_Assets/Users/no_avatar.png",
+    "Id": 6
+  },
+  {
+    "Name": "Mathis",
+    "Email": "math@yopmail.com",
+    "Password": "yq6TLUX3AKOMGqGnA3PDrXeqgkOVJnx3SFwAsTF3ozE=QXgviJR+/uFiJ15cB/Bt85aguS0=",
+    "Access": 2,
+    "Blocked": false,
+    "Verified": true,
+    "Notify": true,
+    "Avatar": "/App_Assets/Users/no_avatar.png",
+    "Id": 7
+  },
+  {
+    "Name": "Vincent",
+    "Email": "vinc@yopmail.com",
+    "Password": "a4Q16uFPJ6qbSf3353RPb2UWG+IEHsrVXQjpMh7Agkg=uyTeEXOWE13IM5SU6tJtHnIvH8Y=",
+    "Access": 2,
+    "Blocked": false,
+    "Verified": true,
+    "Notify": true,
+    "Avatar": "/App_Assets/Users/no_avatar.png",
+    "Id": 8
+  }
+]
